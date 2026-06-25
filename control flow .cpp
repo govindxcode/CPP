@@ -29,7 +29,7 @@ int main(){
 //           IF -  ELSE-IF  CONDITION
 
 
-#include<iostream>
+/*#include<iostream>
 using namespace std ;
 
 int main (){
@@ -54,5 +54,45 @@ int main (){
     else if ( marks<60 && marks>=30){
         cout<<" Grade D" << endl;
     }    
+
+    else {
+        cout << "You are Fail"<< endl;
+    }
     return 0;
+}*/
+
+
+
+//           NESTED IF 
+
+
+
+
+#include<iostream>
+using namespace std ;
+
+int main(){
+
+    int age ;
+    cout << "enter you age ";
+    cin>>age;
+
+    int weight;
+    cout<< "enter your weight";
+    cin>> weight;
+
+    if (age>10){
+
+        if (weight >50){
+            cout <<"you have a good bmi";
+        }
+        else {
+        cout <<"bhai tujhse nh ho payega";
+        }
+    }
+    else {
+        cout << "TU SUNDAY KO AANA ";
+    }
+ return 0 ;
+
 }
