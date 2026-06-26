@@ -41,7 +41,7 @@ int main(){
 }*/
 
 
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
 int main(){
@@ -75,4 +75,44 @@ int main(){
     }
     
     return 0;
-}
+}*/
+
+
+
+    #include<iostream>
+    using namespace std;
+
+    int main(){
+
+
+        int choice ;
+        cout << "enter ur choice ";
+        cin >> choice ;
+
+        switch(choice){
+
+            case 1:
+            cout<<"domestic plan "<< endl <<"rate = 5 per unit ";
+            break; 
+
+            case 2:
+            cout<<"Commercial Plan "<< endl <<"rate = 10 per unit ";
+            break;
+
+            case 3:
+            cout<<"Industrial Plan "<< endl <<"rate = 15 per unit ";
+            break;
+
+            case 4:
+            cout<<"Agriculture Plan "<< endl <<"rate = 20 per unit ";
+            break;
+
+            default:
+            cout<<"invalid choice ";
+            break;
+        }
+
+
+
+        return 0;
+    }
